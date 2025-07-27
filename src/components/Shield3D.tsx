@@ -6,7 +6,7 @@ import { Group } from 'three'
 function ShieldModel() {
   const meshRef = useRef<Group>(null)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const gltf = useGLTF('/3d_shield_icon.glb')
+  const gltf = useGLTF(import.meta.env.BASE_URL + '3d_shield_icon.glb')
   
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {

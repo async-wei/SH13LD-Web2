@@ -4,8 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/SH13LD-Web/",
   server: {
-    base: "/SH13LD-Web2/",
     host: "::",
     port: 8080,
   },

@@ -83,7 +83,7 @@ export default function KoFiButton({ className = '' }: { className?: string }) {
         {/* Content */}
         <div className="relative z-10 flex items-center gap-3">
           <img 
-            src="src\assets\kofi_logo.png"
+            src={import.meta.env.BASE_URL + 'kofi_logo.png'}
             width="24" 
             height="24"
             className="flex-shrink-0"

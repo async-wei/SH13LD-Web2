@@ -265,7 +265,7 @@ const Index = () => {
                 </Button>
                 <Button variant="ghost" size="sm" asChild>
                   <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer" className="transition-colors duration-200 rounded-full hover:bg-[#29abe0]/90">
-                    <img src="src/assets/kofi_logo.png" alt="Ko-fi" width={16} height={16} style={{ display: 'inline', verticalAlign: 'middle' }} />
+                    <img src={import.meta.env.BASE_URL + 'kofi_logo.png'} alt="Ko-fi" width={16} height={16} style={{ display: 'inline', verticalAlign: 'middle' }} />
                   </a>
                 </Button>
               </div>
